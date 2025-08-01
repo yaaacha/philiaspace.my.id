@@ -1,8 +1,8 @@
 ![welcome](img/welcome.png){:  style="display: block; margin: 0 auto; max-width:100%; height:auto;" }
 
-#Hello :)
-Hi, welcome to my site. :smirk_cat:
+#Halo :)
+Hi, Selamat Datang di Philia Space. :smirk_cat:
 
-You can *learn how to learn* Japanese properly here. Click on the button below to get started! ^^
- 
-[:fontawesome-solid-book-open: Read the guide! ](/guide){: .md-button .md-button--primary }  
+Kamu bisa  *belajar cara belajar* bahasa jepang di sini. Tekan tombol di bawah untuk memulai! ^^
+
+[:fontawesome-solid-book-open: Baca Panduannya! ](/guide){: .md-button .md-button--primary }  
