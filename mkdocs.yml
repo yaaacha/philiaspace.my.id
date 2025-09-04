@@ -81,6 +81,9 @@ theme:
   logo: img/moe.svg
   icon:
     repo: fontawesome/brands/github
+repo_url: https://github.com/phi-li-a/philiaspace.my.id
+repo_name: GitHub
+
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji

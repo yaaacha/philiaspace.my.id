@@ -1,6 +1,10 @@
 
 # Setup Mining Anime di PC
 ---
+
+ Diunggah: 10 Agustus 2025 – `Yaaacha`
+
+---
 ## Permulaan
 
 - `asbplayer` adalah pemutar video di browser yang bisa digunakan untuk menonton `anime` dan `subtitle`, lalu hover kata menggunakan `yomitan`.

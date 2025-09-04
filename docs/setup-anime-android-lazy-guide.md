@@ -1,4 +1,9 @@
 # Setup Mining Anime di Android [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnimeOnAndroid/)
+---
+
+ Diunggah: 24 Agustus 2025 – `Yaaacha`
+
+---
 
 - `asbplayer` adalah pemutar video di browser yang bisa memutar `Anime` dan `takarir` supaya kamu bisa hover kata-kata dan pakai `Yomitan`.
 

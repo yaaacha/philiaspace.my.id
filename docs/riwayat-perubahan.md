@@ -18,6 +18,17 @@ hide:
 
 ---
 
+### September
+
+**05-09-2025**
+
+- Umum
+       - Penambahan Tombol Repository Github Situs Philiaspace
+       - Pembaruan format publikasi
+       - Perbaikan typo dan kerapihan dokumentasi
+
+---
+
 ### Agustus
 
 **25-08-2025**
@@ -39,7 +50,6 @@ hide:
        - Penambahan halaman [Setup Anime](setup-anime-android-lazy-guide.md)
        - Penambahan halaman [Setup LN & Buku](setup-LN-android-lazy-guide.md)
        - Penambahan halaman [Setup Manga](setup-manga-android-lazy-guide.md)
-       - Pembaruan halaman []()
 
 **10-08-2025**
 
@@ -59,7 +69,7 @@ hide:
 **03-08-2025**
 
 - Umum
-       - Penambahan halaman Panduan Ringkas Bahasa Jepang
+       - Penambahan halaman [Panduan Ringkas Bahasa Jepang](panduan-ringkas-JP.md)
        - Penambahan ikon laman
 
 **02-08-2025**
@@ -67,18 +77,18 @@ hide:
 - Umum
 	- Penambahan halaman beranda
 - Pengaturan
-	- Penambahan halaman pengatar
+	- Penambahan halaman [pengantar](setup.md)
 	- Perbaikan dokumen
 
 **01-08-2025**
 
 - Umum
-	- Pembaruan halaman join discord
+	- Pembaruan halaman [join discord](join.md)
 - Pengaturan Utama
-	- Penambahan tutorial Anki PC (LazyGuide)
-	- Penambahan tutorial Yomitan (LazyGuide)
+	- Penambahan tutorial [Anki PC (LazyGuide)](setup-anki-pc-lazy-guide.md)
+	- Penambahan tutorial [Yomitan (LazyGuide)](setup-yomitan-pc-lazy-guide.md)
 - Pengaturan PC
-	- Penambahan tutorial mining Anime
+	- Penambahan tutorial [Mining Anime](setup.md)
 - Lain-lain
 	- Penambahan Riwayat Perubahan
 

@@ -1,4 +1,9 @@
 # Tutorial OCR Manga Desktop (Versi [Mangatan](https://github.com/kaihouguide/Mangatan?tab=readme-ov-file#-for-pcdesktop-nodejs))
+---
+
+ Diunggah: ..... 2025 – `Yaaacha`
+
+---
 
 Panduan ini dirancang agar kamu dapat menjalankan server OCR berbasis Node.js untuk membaca Manga di PC atau desktop menggunakan Mangatan dan Suwayomi sebagai pengolah OCR.
 

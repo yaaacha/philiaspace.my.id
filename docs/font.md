@@ -1,5 +1,9 @@
 # Apakah kamu sudah pakai font yang benar? 
+---
 
+ Diunggah: 10 Agustus 2025 – `Yaaacha`
+
+---
 ??? warning "Perhatian <small>(klik di sini)</small>"
     - Panduan ini adalah terjemahan dari [TheMoeWay](https://learnjapanese.moe/font/) dengan beberapa pengubahan referensi dan lokalisasi sumber Bahasa Indonesia
 

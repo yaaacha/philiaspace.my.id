@@ -1,4 +1,9 @@
 # Setup Mining Manga di PC Windows [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupMangaOnPC/) 
+---
+
+ Diunggah: 24 Agustus 2025 – `Yaaacha`
+
+---
 
 - [MangaOCR](setup-manga-pc-lazy-guide.md/#setup-mining-mangaocr) adalah tool yang dipakai buat scan teks `Jepang` dan langsung nyimpen hasilnya ke clipboard, yang nanti bisa kamu scan pakai `Yomitan`.
 

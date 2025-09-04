@@ -1,5 +1,11 @@
 # Setup Mining LN, Buku, dan sejenisnya di Android [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnAndroid/)
 
+---
+
+ Diunggah: 24 Agustus 2025 – `Yaaacha`
+
+---
+
 - Kamu bisa pakai `Android` buat baca `Light Novel` lewat `Edge Canary` sambil scan kata pakai `Yomitan`.
 
 ---

@@ -1,4 +1,7 @@
 # Pengantar Setup
+---
+
+ Diunggah: 2 Agustus 2025 – `Yaaacha`
 
 ---
 

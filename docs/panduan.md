@@ -1,4 +1,9 @@
 # Panduan Bahasa Jepang
+---
+
+ Diunggah: 10 Agustus 2025 – `Yaaacha`
+
+---
 
 ??? warning "Perhatian <small>(klik di sini)</small>"
     - Panduan ini adalah terjemahan dari [TheMoeWay](https://learnjapanese.moe/guide/) dengan beberapa pengubahan referensi dan lokalisasi sumber Bahasa Indonesia

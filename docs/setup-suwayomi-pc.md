@@ -1,5 +1,11 @@
 # Tutorial Setup Suwayomi-Server (Desktop)
 
+---
+
+ Diunggah: ....... 2025 – `Yaaacha`
+
+---
+
 ## Unduh dan Pasang
 
 Silakan cek sesuai perangkat yang digunakan
