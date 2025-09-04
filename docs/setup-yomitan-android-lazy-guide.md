@@ -1,5 +1,10 @@
 # Setup Yomitan di Android [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnAndroid/)
 
+---
+
+ Diunggah: 24 Agustus 2025 – `Yaaacha`
+
+---
 
 - Yomitan adalah kamus hover untuk bahasa Jepang
 - Dipakai buat `mining` ke `Anki`

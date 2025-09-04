@@ -1,5 +1,11 @@
 # Setup Yomitan di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnPC/)
 
+---
+
+ Diunggah: 1 Agustus 2025 – 'Yaaacha'
+
+---
+
 - Yomitan adalah kamus _pop up_ untuk berbagai bahasa
 - Dipakai buat `mining` ke `Anki`
 - Setup di tutorial ini menggunakan tipe catatan (Note Type) [Lapis](https://github.com/donkuri/lapis)

@@ -1,4 +1,9 @@
 # Setup Anki di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnki/)
+---
+
+ Diunggah: 1 Agustus 2025 – `Yaaacha`
+
+---
 
 - Anki adalah program flash card berbasis SRS (Spaced Repetition System) untuk _review_ kartu yang penjadwalan ulangnya ditentukan oleh algoritma.
 - Bisa digunakan di perangkat mobile juga.

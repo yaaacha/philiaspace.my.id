@@ -1,4 +1,9 @@
 # Setup: Manga di Android
+---
+
+ Diunggah: 24 Agustus 2025 – `Yaaacha`
+
+---
 
 - Kamu bisa pakai `Android` buat baca `Manga` lewat `Edge Canary` sambil scan kata pakai `Yomitan`.
 - Termasuk juga fitur screenshot otomatis `Manga` walaupun di `Android`.

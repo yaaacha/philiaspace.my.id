@@ -1,4 +1,9 @@
 # Setup Mining Light Novel dan sejenisnya [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/)
+---
+
+ Diunggah: 10 Agustus 2025 – `Yaaacha`
+
+---
 
 - Kamu bisa baca `Light Novel` di `PC` selama kamu punya file `epub` dari `Light Novel` itu, situs buat buka `epub`-nya, dan `yomitan` sudah terpasang.
 

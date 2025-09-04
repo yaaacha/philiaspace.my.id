@@ -3,6 +3,11 @@ hide:
   - footer
 ---
 # Memperbarui: Format Lapis
+---
+
+ Diunggah: 1 Agustus 2025 – `Yaaacha`
+
+---
 
 - Begini cara memperbarui Format `Lapis`, entah buat perbaiki bug atau sekadar update versi terbaru
 

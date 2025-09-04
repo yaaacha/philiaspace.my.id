@@ -1,4 +1,9 @@
 # Tutorial OCR Manga Android (Versi [Mangatan](https://github.com/kaihouguide/Mangatan?tab=readme-ov-file#-for-android))
+---
+
+ Diunggah: ...... 2025 – `Yaaacha`
+
+---
 
 Panduan ini disusun berdasarkan referensi dari [Kaihou Guide Mangatan](https://github.com/kaihouguide/Mangatan?tab=readme-ov-file#-for-android).
 

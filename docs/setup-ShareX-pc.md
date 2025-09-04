@@ -1,5 +1,11 @@
 # Setup ShareX di Windows [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupShareX/)
 
+---
+
+ Diunggah: 24 Agustus 2025 – `Yaaacha`
+
+---
+
 - ShareX adalah tool otomatis untuk `screenshot`, `rekam audio`, dan `OCR` supaya bisa langsung ditempel di kartu `Anki` dengan gampang.
 - **Wajib** buat semua metode mining yang aku pakai.
 
