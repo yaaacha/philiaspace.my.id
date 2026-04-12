@@ -1,7 +1,7 @@
 # Kartu Anime Satu Klik - [Autocards oleh Shoui](https://learnjapanese.moe/autocards/#download)
 ---
 
- Diunggah: 18 Januari 2026 – `Yaaacha`
+ Diunggah: 13 April 2026 – `Yaaacha`
 
 ---
 Solusi **all-in-one** untuk membuat kartu dari konten bersubtitle, seperti anime (DENGAN gambar + audio kalimat + konteks) dengan satu klik.
@@ -14,7 +14,7 @@ Kompatibel dengan pengaturan Yomitan yang sudah ada. Tidak perlu framework lain.
 
 * Windows
 * Anki ([Panduan Pengaturan Cepat](setup-anki-pc-lazy-guide.md))
-* Yomitan (panduan [di sini](https://learnjapanese.moe/yomichan))
+* Yomitan (panduan [di sini](setup-yomitan.md))
 * Tipe note dengan field untuk "Expression", "Picture", "Sentence" & "SentenceAudio". Lapis kompatibel. Temukan [di sini](https://github.com/donkuri/lapis). ([Panduan Pengaturan Cepat](setup-yomitan-pc-lazy-guide.md))
 * Yomitan sudah diatur untuk pembuatan kartu. (persyaratan minimum: `Expression` & `Sentence`. Autocards akan mengurus sisanya. [Panduan Pengaturan Cepat](setup-yomitan-pc-lazy-guide.md))
 * File subtitle tersedia (misalnya, file .srt), temukan di [Jimaku.cc](https://jimaku.cc/).

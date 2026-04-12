@@ -14,6 +14,23 @@ hide:
 
 ---
 
+## 2026
+
+---
+
+### April
+
+**13-04-2025**
+
+- Umum
+       - Pembaruan tautan Grinding Kana game
+- Setup Utama
+       - Penambahan Panduan [Setup Manatan](Setup-Manatan.md)
+- Setup PC
+       - Penambahan Panduan [Mining Windows](Auto-Mining Anime.md)
+	   
+---
+
 ## 2025
 
 ---
