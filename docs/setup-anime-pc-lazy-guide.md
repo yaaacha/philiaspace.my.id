@@ -1,24 +1,26 @@
 
-# Setup Mining Anime di PC
+# Setup Mining Anime di MacOS
 ---
 
- Diunggah: 10 Agustus 2025 – `Yaaacha`
+ Diunggah: 18 Januari 2026 – `Yaaacha`
 
 ---
 ## Permulaan
 
 - `asbplayer` adalah pemutar video di browser yang bisa digunakan untuk menonton `anime` dan `subtitle`, lalu hover kata menggunakan `yomitan`.
+- `animetan` adalah fork dari asbplayer dengan tambahan fitur automatic subtitle inserter.
 
 ---
 
 ## Unduh & Pasang
 
+- Akun [Jimaku](https://jimaku.cc/) (bisa dilewati jika tidak menggunakan animetan)
 - Unduh `anime` dan `subtitle JP` kamu
     - Untuk subtitle JP, bisa ke [Jimaku](https://jimaku.cc/)
 
-- (Opsional) Untuk video streaming, pasang ekstensi [asbplayer](https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab)
+- Untuk video streaming, pasang ekstensi [animetan](https://chromewebstore.google.com/detail/animetan-asbplayer-with-a/mmoglblloplhkmjpeckknpadfhpgjhoi)
 !!! warning "Untuk Pengguna Firefox"
-    Untuk pengguna Firefox, bisa instal [dari sini](https://addons.mozilla.org/en-US/firefox/addon/asbplayer-learn-with-subs/), tapi banyak fitur yang hilang, lihat [catatan ini](https://docs.asbplayer.dev/docs/compatibility).
+    Untuk pengguna Firefox, bisa instal [dari sini](https://addons.mozilla.org/en-US/firefox/addon/animetan-auto-subtitles/), tapi banyak fitur yang hilang, lihat [catatan ini](https://docs.asbplayer.dev/docs/compatibility).
 
 
 Syarat:
@@ -27,7 +29,7 @@ Syarat:
 
 ---
 
-## Langkah-langkah
+## Langkah-langkah Penggunaan Video Lokal
 
 1. Di browser buka `chrome://flags` atau `edge://flags`
     - Cari `Experimental Web Platform features` lalu aktifkan
@@ -68,6 +70,15 @@ Kamu sudah bisa mining anime di PC.  Mau lanjut cek panduan Setup Mining Light N
 <small>Kalau ada masalah, cek [Pertanyaan Umum](setup-anime-pc-lazy-guide.md/#pertanyaan-umum)</small>
 
 ---
+## Langkah-langkah Penggunaan Video Streaming
+
+1. Buka web nonton anime kesayanganmu, contoh: Hianime
+2. Saat pertama kali penggunaan akan muncul dialog untuk memasukkan API
+3. Dapatkan API Key dari [jimaku.cc](https://jimaku.cc/account) dengan cara membuat akun
+4. Buat API key dengan pencet tombol "API" lalu copy kode yang muncul
+5. Masukkan kode tersebut ke Animetan
+6. Jika judul anime sudah sesuai dengan judul yang tertulis di Jimaku, untuk kesempatan selanjutnya, animetan akan otomatis memasukkan subtitle
+
 
 ## Info Tambahan & Tips
 

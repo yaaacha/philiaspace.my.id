@@ -1,4 +1,4 @@
-# Setup Yomitan di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnPC/)
+ Setup Yomitan di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnPC/)
 
 ---
 
@@ -22,7 +22,7 @@
     - `kamus yomitan`
     - `lazyGuide-yomitan-settings` (download dua-duanya)
         - Firefox/Brave: `yomitan settings` [di sini](https://drive.google.com/drive/folders/1D_O7HgX4xMBOQcl2tLoeAQ7KUtPqyUnU?usp=sharing)
-    - Tambahan kamus [JIDict](https://drive.google.com/file/d/1VPvizJLN3ShjzdNbTxpY4dN33UI9l0FR/view?usp=drivesdk) dan [JMDict Trilingual JP-EN-ID](https://github.com/phi-li-a/PhiliaArchive/blob/main/Yomitan/Trilingual/%5BBETA%20VERSION%5D%20JMDict%20JP-EN-ID%20V.0.1.zip)
+    - Tambahan kamus [JIDict](https://drive.google.com/file/d/17t0_0sGi23GOFvEkulEOyu8eYT5Q3nQN/view) dan [JMDict Trilingual JP-EN-ID](https://github.com/phi-li-a/PhiliaArchive/blob/main/Yomitan/Trilingual/%5BBETA%20VERSION%5D%20JMDict%20JP-EN-ID%20V.0.1.zip)
 - Setelah download:
     - Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `Font.7z` dan `yomitan dictionary.7z` (Pass: `lazyguide`)
     - `yomitan dictionary.7z` cuma perlu diekstrak 1x, `jangan ekstrak isi dictionary-nya`
@@ -153,7 +153,7 @@ Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
 
     - Silakan, mayoritas kamus yang formatnya Anki kompatibel, tinggal lakukan langkah ke 6 di bagian [setup](setup-yomitan-pc-lazy-guide.md/#setup)
 
-    - Kamu juga bisa edit di bagian `Yomitan settings` > `Anki` > `Configure Anki card format...` > `MainDefinition` > pilih dari dropdown `single-glossary-YANG-KAMU-MAU`
+    - Kamu juga bisa edit di bagian `Yomitan settings` > `Anki` > `Configure Anki card format...` > `MainDefinition` > pilih dari dropdown `single-glossary-NAMA-KAMUS-YANG-KAMU-MAU`
 
     - Kalau ganti `MainDefinition`, kamu harus edit tiap `Profile`
 

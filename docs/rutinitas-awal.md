@@ -64,7 +64,7 @@ Lanjut, tonton salah satu video ini:
 
 Video di atas dari JapanesePod dan Wagomu. Kemungkinan ini satu-satunya video JapanesePod atau Wagomu yang bakal aku rekomendasiin, cuma bilang aja sih.  
 
-Sekarang buka website ini: [Kana Grinding Game](https://gohoneko.neocities.org/learn/kana.html)  
+Sekarang buka website ini: [Kana Grinding Game](https://djtguide.neocities.org/kana/)  
 
 Klik "show/hide options".  
 

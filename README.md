@@ -1,12 +1,12 @@
-## 🌐 Situs Philia Space
+## π Situs Philia Space
 Bisa diakses di sini
 https://philiaspace.my.id/
 
-## 📝 Cara Kontribusi ke Dokumentasi philia
+## π Cara Kontribusi ke Dokumentasi philia
 
 Kami sangat menghargai kontribusi Anda untuk meningkatkan dokumentasi **Philia**. Dokumentasi ini dibangun menggunakan [MkDocs](https://www.mkdocs.org/) dan dengan plugin [mkdocs-material](https://squidfunk.github.io/mkdocs-material/). Ada 2 cara untuk kontribusi ke dokumentasi **Philia**, yaitu dengan fork lagsung dari web GitHub, atau clone repo ini ke local/komputer masing-masing.
 
-### 📁 Struktur Dokumentasi
+### π Struktur Dokumentasi
 
 Dokumentasi berada di folder:
 
@@ -22,7 +22,7 @@ mkdocs.yml
 
 ---
 
-### 🔧 Cara Pertama (Tes Lokal)
+### π§ Cara Pertama (Tes Lokal)
 
 1. **Fork & Clone repository-nya**
    ![Fork](https://github.com/phi-li-a/philiaspace.my.id/fork) terlebih dahulu lalu Clone
@@ -42,12 +42,12 @@ mkdocs.yml
 3. **Install MkDocs dan theme material**
 
    ```bash
-   pip install mkdocs mkdocs-material mkdocs-open-in-new-tab
+   pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-open-in-new-tab
    ```
 
 ---
 
-### ✍️ Cara Mengedit Dokumentasi
+### βοΈ Cara Mengedit Dokumentasi
 
 1. Buka file yang ingin kamu edit di dalam folder `docs/`. Misalnya:
 
@@ -66,7 +66,7 @@ mkdocs.yml
 
 ---
 
-### 🔍 Preview Lokal Dokumentasi
+### π Preview Lokal Dokumentasi
 
 Untuk melihat hasil edit dokumentasi secara lokal:
 
@@ -80,7 +80,7 @@ Lalu buka browser ke: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 
 
-### ✅ Submit Perubahan
+### β Submit Perubahan
 
 1. Tambahkan perubahanmu:
 
@@ -98,13 +98,13 @@ Lalu buka browser ke: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ---
 
-## 📝 Cara kedua (Full dari web GitHub)
+## π Cara kedua (Full dari web GitHub)
 
 ### Kontribusi Dokumentasi Langsung dari GitHub (Tanpa Clone)
 
 Kalau kamu tidak ingin meng-clone repo, kamu bisa **langsung kontribusi lewat GitHub Web UI** dengan cara berikut:
 
-### 🪄 Langkah-Langkah
+### π� Langkah-Langkah
 
 1. **Fork Repositori**
 
@@ -116,7 +116,7 @@ Kalau kamu tidak ingin meng-clone repo, kamu bisa **langsung kontribusi lewat Gi
 
    * Di repo hasil fork kamu, buka folder `docs/`.
    * Klik file `.md` yang ingin diubah, misalnya `docs/index.md`.
-   * Klik ikon ✏️ (Edit this file).
+   * Klik ikon βοΈ (Edit this file).
    * Lakukan perubahan langsung di editor GitHub.
 
 3. **Commit Perubahan**
@@ -127,7 +127,7 @@ Kalau kamu tidak ingin meng-clone repo, kamu bisa **langsung kontribusi lewat Gi
      ```
      Update dokumentasi: perbaikan penulisan di index.md
      ```
-   * Pilih opsi: “Create a new branch for this commit and start a pull request.”
+   * Pilih opsi: βCreate a new branch for this commit and start a pull request.β
    * Klik **Propose changes**.
 
 4. **Buat Pull Request**
@@ -138,7 +138,7 @@ Kalau kamu tidak ingin meng-clone repo, kamu bisa **langsung kontribusi lewat Gi
 
 ---
 
-### 🧠 Catatan
+### π§  Catatan
 
 * Pastikan kamu mengedit file di dalam folder `docs/` karena semua dokumentasi ada di situ.
 * Format yang digunakan adalah **Markdown (`.md`)**.
@@ -147,10 +147,10 @@ Kalau kamu tidak ingin meng-clone repo, kamu bisa **langsung kontribusi lewat Gi
 
 ---
 
-Dengan dua metode ini (lokal dan GitHub Web), semua orang bisa berkontribusi ke dokumentasi **Philia** dengan mudah — baik pengguna teknikal maupun non-teknikal.
+Dengan dua metode ini (lokal dan GitHub Web), semua orang bisa berkontribusi ke dokumentasi **Philia** dengan mudah β baik pengguna teknikal maupun non-teknikal.
 
 
-## 📄 Lisensi
+## π Lisensi
 
 Proyek ini menggunakan dua jenis lisensi:
 
@@ -163,7 +163,7 @@ Proyek ini menggunakan dua jenis lisensi:
   [Lihat file LICENSE.docs.md](./LICENSE.docs.md)
 
 
-### 💡 Note Kontributor
+### π‘ Note Kontributor
 
 * Siapa saja dipersilahkan berkontribusi, karena kita semua sama-sama belajar.
 * Saya Pemula
