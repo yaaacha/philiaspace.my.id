@@ -42,7 +42,7 @@ mkdocs.yml
 3. **Install MkDocs dan theme material**
 
    ```bash
-   pip install mkdocs mkdocs-material mkdocs-open-in-new-tab
+   pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-open-in-new-tab
    ```
 
 ---
@@ -94,7 +94,13 @@ Lalu buka browser ke: [http://127.0.0.1:8000](http://127.0.0.1:8000)
    git commit -m "Update dokumentasi: perbaiki bagian instalasi"
    ```
 
-3. Push ke fork-mu dan buat Pull Request ke branch `main`.
+3. Push ke fork-mu 
+
+   ```bash
+   git push origin main
+   ```
+
+4. Buat Pull Request ke branch `main` di web Github.
 
 ---
 

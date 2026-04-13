@@ -64,7 +64,7 @@ Lanjut, tonton salah satu video ini:
 
 Video di atas dari JapanesePod dan Wagomu. Kemungkinan ini satu-satunya video JapanesePod atau Wagomu yang bakal aku rekomendasiin, cuma bilang aja sih.  
 
-Sekarang buka website ini: [Kana Grinding Game](https://gohoneko.neocities.org/learn/kana.html)  
+Sekarang buka website ini: [Kana Grinding Game](https://djtguide.neocities.org/kana/)  
 
 Klik "show/hide options".  
 
@@ -81,7 +81,7 @@ Pakai timer ini: [Timer 10 menit](https://www.online-stopwatch.com/timer/10minut
 
 ### Tahap: Bikin "Jepang" versi kamu sendiri di rumah  
 
-Latihan lagi di situs ini [Kana Grinding Game](https://gohoneko.neocities.org/learn/kana.html) selama 10 menit.  
+Latihan lagi di situs ini [Kana Grinding Game](https://djtguide.neocities.org/kana/) selama 10 menit.  
 Timer di sini: [Timer 10 menit](https://www.online-stopwatch.com/timer/10minutes/).  
 Ingat, semua kana harus diaktifkan.  
 
@@ -163,7 +163,7 @@ Besok bakal lebih ribet. Jadi… siap-siap aja ya…?
 
 ### Tahap: Baru mulai belajar tata bahasa (bunpou)
 
-Lakuin latihan kana harian kamu di situs ini! [Kana Grinding Game](https://gohoneko.neocities.org/learn/kana.html) selama 10 menit.  
+Lakuin latihan kana harian kamu di situs ini! [Kana Grinding Game](https://djtguide.neocities.org/kana/) selama 10 menit.  
 
 Pakai timer ini: [Timer 10 menit](https://www.online-stopwatch.com/timer/10minutes/)  
 
@@ -258,7 +258,7 @@ Hari ini kamu akan:
 
 Banyak banget ya. Pastikan kamu punya waktu cukup hari ini.  
 
-Latihan kana di situs ini [Kana Grinding Game](https://gohoneko.neocities.org/learn/kana.html) selama 10 menit.  
+Latihan kana di situs ini [Kana Grinding Game](https://djtguide.neocities.org/kana/) selama 10 menit.  
 
 [Timer 10 Menit di sini](https://www.online-stopwatch.com/timer/10minutes/)  
 
@@ -457,7 +457,7 @@ Kalau bingung mau berapa episode anime, tentuin target harian atau biar dadu yan
 
 ## Hari 5  
 
-Masuk ke situs ini [Kana Grinding Game](https://gohoneko.neocities.org/learn/kana.html) dan latihan kana selama 10 menit. [Timer 10 menit](https://www.online-stopwatch.com/timer/10minutes/).  
+Masuk ke situs ini [Kana Grinding Game](https://djtguide.neocities.org/kana/) dan latihan kana selama 10 menit. [Timer 10 menit](https://www.online-stopwatch.com/timer/10minutes/).  
 
 Sekarang lanjutkan Anki harianmu.  
 
@@ -503,7 +503,7 @@ Sedikit-sedikit juga ngaruh kok!
 
 Pertama, latihan kana selama 10 menit.  
 
-[Kana Practice](https://gohoneko.neocities.org/learn/kana.html)  
+[Kana Practice](https://djtguide.neocities.org/kana/)  
 [Timer 10 Menit](https://www.online-stopwatch.com/timer/10minutes/)  
 
 Habis itu, lanjut ngerjain Anki.  

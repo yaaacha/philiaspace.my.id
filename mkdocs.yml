@@ -23,14 +23,15 @@ nav:
       - 'Pengantar - LazyGuide': 'setup.md'
       - 'Setup Utama - LazyGuide':
         - 'Anki PC': 'setup-anki-pc-lazy-guide.md'
-    #   - 'Yomitan PC (Yaaacha)': 'setup-yomitan-pc.md'
         - 'Yomitan PC': 'setup-yomitan-pc-lazy-guide.md'
+        - 'Yomitan & Anki PC': 'setup-yomitan-pc.md'
         - 'Yomitan Android': 'setup-yomitan-android-lazy-guide.md'
+        - 'Manatan': 'Setup-Manatan.md'
         - 'ShareX (Windows)': 'setup-ShareX-pc.md'
-    #   - 'Suwayomi PC': 'setup-suwayomi-pc.md'
     #   - 'OCR (MacOS)': 'setup-ocr-macos.md'
       - 'Setup PC - LazyGuide':
-        - 'Anime': 'setup-anime-pc-lazy-guide.md'
+        - 'Anime MacOS': 'setup-anime-pc-lazy-guide.md'
+        - 'Anime Windows': 'Auto-Mining Anime.md'
         - 'LN & Buku': 'setup-LN-pc-lazy-guide.md'
         - 'Manga': 'setup-manga-pc-lazy-guide.md'
       - 'Setup Android - LazyGuide':
@@ -68,6 +69,9 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - content.code.copy
+    - content.action.edit
+    - content.zoom
     - navigation.instant
     - navigation.instant.progress
     - navigation.sections
@@ -98,6 +102,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.keys
   - pymdownx.superfences
+  - md_in_html
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
@@ -113,6 +118,11 @@ plugins:
         - id
         - ja
   - open-in-new-tab
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      zoomable: true
+      draggable: true
 # extra:
 #   alternate:
 #     - name: English

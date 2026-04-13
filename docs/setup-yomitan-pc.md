@@ -1,4 +1,4 @@
-# Setup Yomitan di PC (Yaaacha)
+# Setup Yomitan dan Anki PC (Yaaacha)
 ---
 ## <b>Persiapan</b>
 Download aplikasi-aplikasi di bawah:
@@ -69,11 +69,11 @@ Tekan icon rantai (di bawah tulisan file di pojok kiri atas) lalu masukkan tauta
 Unduh berkas untuk Local Audio.
 </figcaption>
 
-[![](img/Awal1.jpg)](img/Awal1.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
-[![](img/Awal2.jpg)](img/Awal2.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
+[![Awal1](img/Awal1.jpg)](img/Awal1.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
+[![Awal2](img/Awal2.jpg)](img/Awal2.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
 
-[![](img/Awal3.jpg)](img/Awal3.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
-[![](img/Awal4.jpg)](img/Awal4.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
+[![Awal3](img/Awal3.jpg)](img/Awal3.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
+[![Awal4](img/Awal4.jpg)](img/Awal4.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
 
 
 Setelah Download selesai, ekstrak filenya. Kalau udah, sementara biarin aja buat nanti sesi pengaturan Add-ons
@@ -427,15 +427,6 @@ Kita perlu membuat dek baru.
 - Buka ekstensi Yomitan → Anki → Configure Anki Flashcards...→ Sesuaikan dek seperti di gambar
 - Kamu juga bisa berganti note type dengan mengimpor template note type yang lain. Untuk mengeksplore note type yang kamu suka, bisa cek [di sini](https://arbyste.github.io/jp-mining-note/alternatives/)
 - Yomitan dan dek Anki siap digunakan
-
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-  <a href="img/Ganti-Deck:Note-Type-1.jpg" data-md-img>
-    <img src="img/Ganti-Deck:Note-Type-1.jpg" style="max-width: 100%; width: 300px; height: auto;" />
-  </a>
-  <a href="img/Ganti-Deck:Note-Type-2.jpg" data-md-img>
-    <img src="img/Ganti-Deck:Note-Type-2.jpg" style="max-width: 100%; width: 300px; height: auto;" />
-  </a>
-</div>
 
 
 ## Penutup
