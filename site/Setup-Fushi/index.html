@@ -1,0 +1,2889 @@
+<!DOCTYPE html><html lang="id" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="pi pi pi philia">
+      
+      
+        <meta name="author" content="ryusuke">
+      
+      
+        <link rel="canonical" href="https://philiaspace.my.id/Setup-Fushi/">
+      
+      
+        <link rel="prev" href="../pembaruan-note-type/">
+      
+      
+        <link rel="next" href="../Setup-Hoshi-Reader-iOS/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>Fushi (Windows) - Philia Space</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6M8XGSMGX2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6M8XGSMGX2');
+</script>
+
+
+
+
+
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7374918663808833" crossorigin="anonymous"></script>
+
+
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="fff7c4" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#setup-fushi-windows" class="md-skip">
+          Lewati ke isi
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2021 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Header -->
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="header.title">
+    
+    <!-- Link to home -->
+    <a href=".." title="Philia Space" class="md-header__button md-logo" aria-label="Philia Space" data-md-component="logo">
+      
+  <img src="../img/philia-space-logo.jpg" alt="logo">
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Philia Space
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+            Fushi (Windows)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Discord icon that links to discord-->
+    <label class="md-header__button md-icon">
+      <a href="/join">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"></path></svg>
+      </a>
+    </label>
+
+    <!-- Donate icon (heart) -->
+    <label class="md-header__button md-icon" title="Donate">
+      <a href="/donate" aria-label="Donate">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m241 87.1 15 20.7 15-20.7C296 52.5 336.2 32 378.9 32 452.4 32 512 91.6 512 165.1v2.6c0 112.2-139.9 242.5-212.9 298.2-12.4 9.4-27.6 14.1-43.1 14.1s-30.8-4.6-43.1-14.1C139.9 410.2 0 279.9 0 167.7v-2.6C0 91.6 59.6 32 133.1 32 175.8 32 216 52.5 241 87.1"></path></svg>
+      </a>
+    </label>
+
+
+
+    <!-- Color palette -->
+    
+    <form class="md-header__option" data-md-component="palette">
+      
+      
+      
+      <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="fff7c4" data-md-color-accent="cyan" type="radio" name="__palette" id="__palette_1">
+      
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+      
+      
+      
+      
+      <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="cyan" type="radio" name="__palette" id="__palette_2">
+      
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+      
+      
+    </form>
+    
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search modal -->
+    
+    <label class="md-header__button md-icon" for="__search">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+    </label>
+
+    <!-- Search interface -->
+    <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cari" placeholder="Cari" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cari">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Bagikan" aria-label="Bagikan" data-clipboard="" data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Kosongkan" aria-label="Kosongkan" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Mempersiapkan pencarian
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    <!-- Repository information -->
+    
+    <div class="md-header__source">
+      <a href="https://github.com/Philia-Space/philiaspace.my.id" title="Ke repositori" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+    
+  </nav>
+
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+
+
+
+<div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+    <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner">
+            
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Philia Space" class="md-nav__button md-logo" aria-label="Philia Space" data-md-component="logo">
+      
+  <img src="../img/philia-space-logo.jpg" alt="logo">
+
+    </a>
+    Philia Space
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Philia-Space/philiaspace.my.id" title="Ke repositori" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1">
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panduan
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Panduan
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../panduan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panduan Bahasa Jepang
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../panduan-ringkas-JP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panduan Ringkas Bahasa Jepang
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rutinitas-awal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    30 Hari Awal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kanji/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Belajar Kanji
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../font/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perbaiki Font
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LazyGuide - Mining
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    LazyGuide - Mining
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pengantar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PC
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PC
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-anki-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-yomitan-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Yomitan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-ShareX-pc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ShareX (Windows)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-anime-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anime
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-LN-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LN &amp; Buku
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-manga-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manga
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3">
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Android
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Android
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-yomitan-android-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Yomitan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-anime-android-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anime
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-LN-android-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LN &amp; Buku
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-manga-android-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manga
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Setup Mining
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Setup Mining
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setup-Manatan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manatan (semua perangkat)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PC
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PC
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-yomitan-pc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Yomitan &amp; Anki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kartu-anime-satu-klik/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anime PC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pembaruan-note-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Memperbarui Note Type
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fushi (Windows)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fushi (Windows)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Di halaman ini">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Di halaman ini
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#persiapan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Persiapan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-awal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setup Awal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kamus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kamus
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kamus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#audio-pengucapan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio pengucapan
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kartu-flashcard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kartu Flashcard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sumber-online-manga-anime-novel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sumber Online (Manga, Anime &amp; Novel)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sumber Online (Manga, Anime &amp; Novel)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tambah-toko-ekstensi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tambah toko ekstensi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasang-ekstensi-sumber" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pasang ekstensi sumber
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cari-judul" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cari judul
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gim
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gim">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tambah-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tambah game
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#main-dan-ambil-teks-dialog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main dan ambil teks dialog
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ekstensi-browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ekstensi browser
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faqs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-1-apa-bedanya-fushi-dengan-manatan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pertanyaan 1: Apa bedanya Fushi dengan Manatan?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-2-apakah-paket-rekomendasi-wajib-diunduh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pertanyaan 2: Apakah Paket rekomendasi wajib diunduh?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-3-apakah-fushi-butuh-browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pertanyaan 3: Apakah Fushi butuh browser?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#masalah-umum" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah Umum
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Masalah Umum">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#masalah-1-muncul-old-data-needs-an-upgrade-first" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 1: Muncul "Old data needs an upgrade first"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#masalah-2-hasil-pencarian-kosong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 2: Hasil pencarian kosong
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#masalah-3-ekstensi-belum-terdeteksi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 3: Ekstensi belum terdeteksi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#masalah-4-kartu-tidak-masuk-ke-anki" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 4: Kartu tidak masuk ke Anki
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#masalah-5-masih-bingung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 5: Masih bingung?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    iOS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    iOS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setup-Hoshi-Reader-iOS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LN &amp; Buku
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sumber Belajar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../proyek/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyek Komunitas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lain-lain
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Lain-lain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../riwayat-perubahan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Riwayat Perubahan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../donate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Donate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar">
+    <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner">
+            
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Di halaman ini">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Di halaman ini
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#persiapan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Persiapan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-awal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setup Awal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kamus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kamus
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kamus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#audio-pengucapan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio pengucapan
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kartu-flashcard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kartu Flashcard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sumber-online-manga-anime-novel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sumber Online (Manga, Anime &amp; Novel)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sumber Online (Manga, Anime &amp; Novel)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tambah-toko-ekstensi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tambah toko ekstensi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasang-ekstensi-sumber" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pasang ekstensi sumber
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cari-judul" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cari judul
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gim
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gim">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tambah-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tambah game
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#main-dan-ambil-teks-dialog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main dan ambil teks dialog
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ekstensi-browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ekstensi browser
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faqs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-1-apa-bedanya-fushi-dengan-manatan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pertanyaan 1: Apa bedanya Fushi dengan Manatan?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-2-apakah-paket-rekomendasi-wajib-diunduh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pertanyaan 2: Apakah Paket rekomendasi wajib diunduh?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-3-apakah-fushi-butuh-browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pertanyaan 3: Apakah Fushi butuh browser?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#masalah-umum" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah Umum
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Masalah Umum">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#masalah-1-muncul-old-data-needs-an-upgrade-first" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 1: Muncul "Old data needs an upgrade first"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#masalah-2-hasil-pencarian-kosong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 2: Hasil pencarian kosong
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#masalah-3-ekstensi-belum-terdeteksi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 3: Ekstensi belum terdeteksi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#masalah-4-kartu-tidak-masuk-ke-anki" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 4: Kartu tidak masuk ke Anki
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#masalah-5-masih-bingung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Masalah 5: Masih bingung?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+            <div class="ps-toc-footer">
+                <a href="/join" class="ps-community-link" aria-label="Join Discord">
+                    <img width="100%" src="/img/discord.png" alt="Discord Philia Space" style="border-radius: 8px; margin-top: 1.5rem; display: block; border: 1px solid var(--md-default-fg-color--lightest);">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/Philia-Space/philiaspace.my.id/edit/main/docs/Setup-Fushi.md" title="Ubah halaman ini" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="setup-fushi-windows">Setup Fushi (Windows)<a class="headerlink" href="#setup-fushi-windows" title="Permanent link">¶</a></h1>
+<hr>
+<p>Diunggah: 4 November 2026 – 'Yaaacha'</p>
+<hr>
+<div class="admonition warning">
+<p class="admonition-title">Draft</p>
+<p>Halaman ini masih draft. Isinya diuji dengan Fushi 3.0.0 di Windows 11, dan bagian yang belum diuji ditandai dengan kotak "Catatan draft".</p>
+</div>
+<details class="info">
+<summary>Info: tentang Fushi <small>(klik di sini)</small></summary>
+<p>Fushi adalah aplikasi satu pintu untuk membaca novel (EPUB), manga, menonton video, dan main galgame sambil mencari kata dengan kamus popup, lalu mengirim katanya jadi kartu Anki. Fushi dulunya bernama Hibiki.</p>
+<p>Panduan ini untuk <strong>Windows</strong>. Fushi juga tersedia untuk Android, macOS, dan iOS di halaman rilis yang sama, tapi langkahnya belum dibahas di sini.</p>
+<p>Sebagian teks di aplikasi masih berbahasa Inggris walaupun bahasa antarmukanya sudah Indonesia, dan installernya tampil dalam bahasa Mandarin. Di halaman ini nama tombol ditulis persis seperti yang muncul di layar.</p>
+</details>
+<h2 id="persiapan"><strong>Persiapan</strong><a class="headerlink" href="#persiapan" title="Permanent link">¶</a></h2>
+<ol>
+<li>
+<p>Unduh <code>fushi-3.0.0-windows-setup.exe</code> dari <a href="https://github.com/hajisensai/fushi/releases/latest">rilis terbaru Fushi di GitHub</a>. Buka bagian <code>Assets</code> kalau daftar filenya belum terlihat.</p>
+<table>
+<thead>
+<tr>
+<th>Perangkat</th>
+<th>Pilih</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><code>fushi-…-windows-setup.exe</code></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><code>fushi-…-arm64-v8a.apk</code> (hampir semua HP sekarang)</td>
+</tr>
+<tr>
+<td>macOS (Apple Silicon)</td>
+<td><code>fushi-…-macos-arm64.dmg</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Siapkan Anki dan add-on AnkiConnect kalau mau menyimpan kata ke Anki. Ikuti <a href="../setup-anki-pc-lazy-guide/">Setup Anki PC</a> sampai Anki dan AnkiConnect terpasang. Kalau belum mau pakai Anki, lewati langkah ini dan pakai review bawaan Fushi (lihat <a href="#kartu-flashcard">Kartu Flashcard</a>).</p>
+</li>
+<li>Unduh kamus. Fushi bisa memakai kamus format Yomitan (<code>.zip</code>), jadi kamus yang sama dengan panduan lain bisa langsung dipakai. Detailnya ada di bagian <a href="#kamus">Kamus</a><ul>
+<li>Kamus JP-ID<ul>
+<li><a href="https://github.com/philiaspaceai/JIDict-yomitan#pemasangan">JIDict</a></li>
+<li><a href="https://discord.com/channels/1370274344571240552/1544821080148025484/1544821080148025484">RH Dict</a> (di Discord Philia Space)</li>
+</ul>
+</li>
+<li>Kamus JP-EN: JMdict, JMnedict, dan Jitendex bisa diunduh langsung dari dalam Fushi, jadi tidak perlu diunduh dulu</li>
+</ul>
+</li>
+</ol>
+<h2 id="instal"><strong>Instal</strong><a class="headerlink" href="#instal" title="Permanent link">¶</a></h2>
+<p>Installer Fushi tampil dalam bahasa Mandarin. Tidak perlu bisa membacanya, cukup tekan tombol ungu di kanan bawah pada setiap layar.</p>
+<ol>
+<li>Jalankan <code>fushi-3.0.0-windows-setup.exe</code></li>
+<li>
+<p><strong>Lokasi instal</strong> (<code>安装 Fushi</code>). Biarkan lokasinya seperti bawaan (<code>%LOCALAPPDATA%\Fushi</code>), lalu tekan <code>下一步</code> (Berikutnya). Ruang kosong yang dibutuhkan sekitar 730 MB. Layar ini biasanya dilewati kalau kamu memperbarui Fushi yang sudah terpasang</p>
+<details class="info">
+<summary>Muncul kotak 文件夹已存在? <small>(klik di sini)</small></summary>
+<p>Kotak ini artinya folder instalnya sudah ada, biasanya sisa dari Fushi yang pernah di-uninstall. Tekan <code>是(Y)</code> (Ya) untuk lanjut instal ke folder itu.</p>
+</details>
+</li>
+<li>
+<p><strong>Pilihan shortcut dan file</strong> (<code>按你的习惯设置</code>). Ada tiga centang. Biarkan semuanya tercentang, lalu tekan <code>下一步</code> (Berikutnya)</p>
+<ul>
+<li>创建桌面快捷方式: buat shortcut di desktop</li>
+<li>Centang kedua: tambahkan Fushi ke menu "Buka dengan" untuk file video (mkv, mp4, dan lain-lain)</li>
+<li>Centang ketiga: tambahkan Fushi ke menu "Buka dengan" untuk buku dan manga (epub, pdf, txt, cbz, dan lain-lain)</li>
+</ul>
+<p>Pilihan ini tidak mengganti pemutar video bawaanmu.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-instal-1.jpg" data-desc-position="bottom"><img alt="Installer Fushi" height="300" src="../img/fushi-instal-1.jpg" width="400"></a></p>
+</li>
+<li>
+<p><strong>Konfirmasi</strong> (<code>准备好开始了</code>). Layar ini merangkum lokasi instal dan centang yang kamu pilih. Tekan <code>开始安装</code> (Mulai instal), atau <code>上一步</code> (Kembali) kalau mau mengubah sesuatu. Proses instalnya sekitar setengah menit</p>
+</li>
+<li>
+<p>Di layar terakhir, biarkan <code>启动 Fushi</code> (Jalankan Fushi) tercentang, lalu tekan <code>完成</code> (Selesai)</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-instal-2.jpg" data-desc-position="bottom"><img alt="Installer selesai" height="300" src="../img/fushi-instal-2.jpg" width="400"></a></p>
+</li>
+</ol>
+<p>Fushi terpasang di folder pengguna, jadi tidak perlu izin admin.</p>
+<p>Uninstall Fushi tidak menghapus data (kamus, pengaturan, dan koneksi Anki). Kalau Fushi dipasang lagi, kamu langsung masuk ke <code>Beranda</code> dengan pengaturan lama, tanpa panduan awal. Datanya tersimpan di <code>%APPDATA%\Fushi\Fushi</code>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Pernah pasang Fushi atau Hibiki versi lama?</p>
+<p>Kalau setelah instal muncul layar <strong>Old data needs an upgrade first</strong>, lihat <a href="#masalah-1-muncul-old-data-needs-an-upgrade-first">Masalah 1</a> dulu.</p>
+</div>
+<h2 id="setup-awal"><strong>Setup Awal</strong><a class="headerlink" href="#setup-awal" title="Permanent link">¶</a></h2>
+<p>Saat pertama dibuka, Fushi menjalankan panduan awal sebanyak 10 langkah. Tombol <code>Lewati untuk sekarang</code> di kiri bawah bisa dipakai kapan saja, dan semua pengaturannya bisa diubah lagi nanti di <code>Pengaturan</code>.</p>
+<ol>
+<li>
+<p><strong>Bahasa dan tema.</strong> Pastikan <code>Pengaturan bahasa</code> sudah <code>Bahasa Indonesia</code>, pilih mode terang/gelap, lalu tekan <code>Berikutnya</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-1.jpg" data-desc-position="bottom"><img alt="Selamat datang" height="300" src="../img/fushi-awal-1.jpg" width="450"></a></p>
+</li>
+<li>
+<p><strong>Apa yang akan Anda gunakan?</strong> Fitur yang tidak dicentang akan disembunyikan dari menu samping. Kalau ragu, biarkan semuanya tercentang. Di bagian bawah, <code>Disiapkan berikutnya</code> menentukan langkah mana saja yang muncul di panduan ini</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Bagian atas</label><label for="__tabbed_1_2">Bagian bawah</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-2.jpg" data-desc-position="bottom"><img alt="Pilih fitur 1" height="300" src="../img/fushi-awal-2.jpg" width="450"></a></p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-3.jpg" data-desc-position="bottom"><img alt="Pilih fitur 2" height="300" src="../img/fushi-awal-3.jpg" width="450"></a></p>
+</div>
+</div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Paket rekomendasi besarnya sekitar 9,5 GB</p>
+<p><code>Paket rekomendasi</code> mengunduh kamus plus audio pengucapan dalam satu paket besar. Kalau kuota atau ruang penyimpananmu terbatas, hilangkan centangnya, lalu unduh kamus satu per satu (lihat <a href="#kamus">Kamus</a>).</p>
+</div>
+</li>
+<li>
+<p><strong>How you review.</strong> Buka <code>Use Anki instead...</code>, lalu pilih <code>Anki</code>. Kalau tidak memakai Anki, pilih <code>Fushi review</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-4.jpg" data-desc-position="bottom"><img alt="Cara review" height="300" src="../img/fushi-awal-4.jpg" width="450"></a></p>
+</li>
+<li>
+<p><strong>Siapkan Anki.</strong> Buka Anki dulu dan biarkan tetap terbuka. Kalau Fushi sudah tersambung, akan muncul tulisan <code>Terhubung: ditemukan … dek</code></p>
+<ul>
+<li>Tekan <code>Buat dek Lapis</code>. Fushi akan menambahkan tipe catatan Lapis dan dek Lapis ke Anki, lalu memilih keduanya</li>
+<li>Kalau mau memakai dek lain, ganti lewat <code>Dek</code>. Pastikan <code>Tipe Catatan</code> tetap <code>Lapis</code></li>
+<li><code>Posisikan ulang otomatis setelah mining</code> menyala dari awal. Sekitar 30 detik setelah kamu membuat kartu, kartu baru di dek itu diurutkan ulang supaya kata yang paling umum muncul duluan. Kartu yang sudah pernah di-review tidak diubah. Matikan kalau kamu mau mengatur urutan kartu baru sendiri</li>
+</ul>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"><input id="__tabbed_2_2" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="__tabbed_2_1">Koneksi Anki</label><label for="__tabbed_2_2">FSRS</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-5.jpg" data-desc-position="bottom"><img alt="Siapkan Anki 1" height="300" src="../img/fushi-awal-5.jpg" width="450"></a></p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-6.jpg" data-desc-position="bottom"><img alt="Siapkan Anki 2" height="300" src="../img/fushi-awal-6.jpg" width="450"></a></p>
+</div>
+</div>
+</div>
+<p>Di bagian bawah ada petunjuk mengaktifkan FSRS di Anki. Kalau kamu sudah mengikuti <a href="../setup-anki-pc-lazy-guide/">Setup Anki PC</a>, FSRS sudah aktif dan bagian ini bisa dilewati.</p>
+</li>
+<li>
+<p><strong>Ekstensi browser.</strong> Langkah ini bisa dilewati dulu dan diselesaikan nanti di bagian <a href="#ekstensi-browser">Ekstensi browser</a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-7.jpg" data-desc-position="bottom"><img alt="Ekstensi browser" height="300" src="../img/fushi-awal-7.jpg" width="450"></a></p>
+</li>
+<li>
+<p><strong>Font.</strong> Opsional. Lewati saja kalau tulisan Jepang di Fushi sudah tampil dengan baik</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-8.jpg" data-desc-position="bottom"><img alt="Font" height="300" src="../img/fushi-awal-8.jpg" width="450"></a></p>
+</li>
+<li>
+<p><strong>Ketuk untuk mencari.</strong> Langkah latihan mencari kata. Kalau hasil pencariannya kosong, berarti kamus belum terpasang. Lanjut dulu, lalu pasang kamus di bagian <a href="#kamus">Kamus</a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-9.jpg" data-desc-position="bottom"><img alt="Ketuk untuk mencari" height="300" src="../img/fushi-awal-9.jpg" width="450"></a></p>
+</li>
+<li>
+<p><strong>Mencari di luar Fushi.</strong> Sorot teks di aplikasi mana pun, lalu tekan <code>Ctrl</code> + <code>Alt</code> + <code>D</code> untuk mencarinya tanpa pindah jendela. Kombinasi tombolnya bisa diganti di <code>Pengaturan</code> &gt; <code>Pintasan</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-awal-10.jpg" data-desc-position="bottom"><img alt="Mencari di luar Fushi" height="300" src="../img/fushi-awal-10.jpg" width="450"></a></p>
+</li>
+</ol>
+<p>Setelah panduan awal selesai, kamu akan masuk ke <code>Beranda</code>. Menu utama ada di samping kiri.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-beranda.jpg" data-desc-position="bottom"><img alt="Beranda Fushi" height="300" src="../img/fushi-beranda.jpg" width="450"></a></p>
+<hr>
+<h2 id="kamus"><strong>Kamus</strong><a class="headerlink" href="#kamus" title="Permanent link">¶</a></h2>
+<p>Kamus dikelola di <code>Pengaturan</code> &gt; <code>Pencarian</code> &gt; <code>Kamus</code>. File kamus berformat <code>.zip</code> dan <strong>tidak perlu diekstrak</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-pengaturan-pencarian.jpg" data-desc-position="bottom"><img alt="Pengaturan pencarian" height="300" src="../img/fushi-pengaturan-pencarian.jpg" width="450"></a></p>
+<p><strong>Cara impor kamus</strong></p>
+<ol>
+<li>Buka <code>Pengaturan</code> &gt; <code>Pencarian</code>, lalu tekan <code>Kamus</code></li>
+<li>Untuk kamus yang sudah kamu unduh (misalnya JIDict), tekan <code>Impor Kamus</code> lalu pilih file <code>.zip</code>-nya</li>
+<li>Untuk JMdict, JMnedict, Jitendex, dan kamus frekuensi JPDB, tekan <code>Unduh Kamus</code> lalu pilih dari daftar. Fushi akan mengunduh dan memasangnya sendiri</li>
+<li>Pastikan tombol di samping kamus dalam keadaan <strong>nyala</strong></li>
+<li>Atur urutannya dengan menyeret kamus, atau tekan <code>Alt</code> + <code>↑</code>/<code>↓</code>. Kamus paling atas tampil paling dulu. Kalau ingin arti bahasa Indonesia muncul duluan, taruh JIDict di urutan pertama</li>
+</ol>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-kamus.jpg" data-desc-position="bottom"><img alt="Daftar kamus" height="300" src="../img/fushi-kamus.jpg" width="450"></a></p>
+<p>Kamus frekuensi (JPDB) masuk ke tab <code>Frekuensi</code>, terpisah dari kamus istilah. Penjelasan arti angka frekuensi ada di <a href="../Setup-Manatan/#rekomendasi-kamus-frekuensi">Setup Manatan</a>.</p>
+<p><strong>Cek kamus sudah jalan</strong></p>
+<p>Buka <code>Cari Kata</code> di menu samping, ketik atau tempel kalimat Jepang, lalu klik salah satu kata. Kalau arti dari setiap kamus muncul berjajar seperti di bawah, kamus sudah siap.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-cari.jpg" data-desc-position="bottom"><img alt="Hasil pencarian" height="300" src="../img/fushi-cari.jpg" width="450"></a></p>
+<h3 id="audio-pengucapan"><strong>Audio pengucapan</strong><a class="headerlink" href="#audio-pengucapan" title="Permanent link">¶</a></h3>
+<p>Tanpa sumber audio, tombol speaker tidak muncul di hasil pencarian dan kartu Anki tidak punya audio. Pilih salah satu:</p>
+<ul>
+<li><strong>Local Audio Server di Anki</strong> (disarankan kalau kamu sudah mengikuti <a href="../setup-yomitan-pc-lazy-guide/#info-1-yomitan-local-audio">Yomitan Local Audio</a>): buka <code>Pengaturan</code> &gt; <code>Pencarian</code> &gt; tab <code>Pengucapan &amp; umpan balik</code> &gt; <code>Kelola sumber audio</code>, lalu nyalakan sumber bernama <code>Anki</code>. Sumber ini memakai add-on Local Audio Server di Anki, jadi Anki harus terbuka</li>
+<li><strong>Paket rekomendasi</strong>: audio sudah termasuk di dalamnya, tapi ukurannya sekitar 9,5 GB</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-audio.jpg" data-desc-position="bottom"><img alt="Kelola sumber audio" height="300" src="../img/fushi-audio.jpg" width="450"></a></p>
+<p>Kalau berhasil, tombol speaker muncul di samping kata yang dicari.</p>
+<hr>
+<h2 id="kartu-flashcard"><strong>Kartu Flashcard</strong><a class="headerlink" href="#kartu-flashcard" title="Permanent link">¶</a></h2>
+<p>Pengaturan kartu ada di <code>Pengaturan</code> &gt; <code>Pembuatan Kartu</code>.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"><input id="__tabbed_3_2" name="__tabbed_3" type="radio"><div class="tabbed-labels"><label for="__tabbed_3_1">Anki (AnkiConnect)</label><label for="__tabbed_3_2">Fushi review</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Untuk kamu yang sudah review di <strong>Anki desktop</strong>. Fushi dan Anki harus berada di komputer yang sama, dan Anki harus terbuka selama kamu membuat kartu.</p>
+<ol>
+<li>Pasang add-on AnkiConnect di Anki: <code>Tools</code> &gt; <code>Add-ons</code> &gt; <code>Get Add-ons</code>, masukkan kode <code>2055492159</code>, lalu tutup dan buka lagi Anki</li>
+<li>Di Fushi, buka <code>Pengaturan</code> &gt; <code>Pembuatan Kartu</code> &gt; tab <code>Anki</code></li>
+<li>Pastikan <code>Send to Anki</code> terpilih</li>
+<li>Tekan <code>Buat dek Lapis</code> kalau belum melakukannya di panduan awal, atau pilih dek sendiri di <code>Dek</code> dan <code>Lapis</code> di <code>Tipe Catatan</code></li>
+<li>Kalau baru membuat atau mengganti nama dek di Anki, tekan <code>Segarkan dek &amp; tipe catatan</code></li>
+<li>Pasang sumber audio pengucapan dulu supaya kartunya punya audio (lihat <a href="#audio-pengucapan">Audio pengucapan</a>)</li>
+<li>Cari sebuah kata, lalu tekan tombol <strong>+</strong> biru di samping kata itu. Cek kartunya di Anki dulu sebelum membuat banyak kartu</li>
+</ol>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-kartu-2.jpg" data-desc-position="bottom"><img alt="Pembuatan Kartu - Anki" height="300" src="../img/fushi-kartu-2.jpg" width="450"></a></p>
+<p>Setelah kartu dibuat, tombol <strong>+</strong> berubah jadi <strong>✓↩</strong>. Tombol ini menimpa kartu terakhir yang kamu buat, jadi kalau ada yang kurang (misalnya audio belum terpasang), perbaiki dulu lalu tekan tombol ini. Kartu lama ditimpa, bukan diduplikasi.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-kartu-3.jpg" data-desc-position="bottom"><img alt="Tombol setelah kartu dibuat" height="300" src="../img/fushi-kartu-3.jpg" width="450"></a></p>
+<details class="info">
+<summary>Isi kartu Lapis dari Fushi <small>(klik di sini)</small></summary>
+<p>Field Lapis langsung terisi tanpa perlu dicocokkan sendiri. Contoh hasil dari halaman <code>Cari Kata</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Field Anki</th>
+<th>Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Expression</td>
+<td>Kata yang dicari</td>
+</tr>
+<tr>
+<td>ExpressionFurigana</td>
+<td>Kata dengan furigana, misalnya <code>天気[てんき]</code></td>
+</tr>
+<tr>
+<td>ExpressionReading</td>
+<td>Cara baca</td>
+</tr>
+<tr>
+<td>ExpressionAudio</td>
+<td>Audio pengucapan (kosong kalau sumber audio belum dipasang)</td>
+</tr>
+<tr>
+<td>MainDefinition</td>
+<td>Arti dari kamus paling atas di daftar kamus</td>
+</tr>
+<tr>
+<td>Sentence</td>
+<td>Kalimat dengan kata yang dicari dicetak tebal</td>
+</tr>
+<tr>
+<td>SentenceFurigana</td>
+<td>Kalimat dengan furigana (tidak selalu terisi)</td>
+</tr>
+<tr>
+<td>Glossary</td>
+<td>Arti dari semua kamus</td>
+</tr>
+<tr>
+<td>Frequency, FreqSort</td>
+<td>Peringkat frekuensi dari JPDB</td>
+</tr>
+<tr>
+<td>IsWordAndSentenceCard</td>
+<td>Diisi <code>x</code></td>
+</tr>
+</tbody>
+</table>
+<p>Karena <code>IsWordAndSentenceCard</code> diisi, bagian depan kartu menampilkan kata beserta kalimatnya. Ini bawaan Fushi dan dipakai apa adanya di panduan ini. Kalau kamu sudah terbiasa dengan kartu kalimat dari <a href="../setup-yomitan-pc-lazy-guide/">panduan Yomitan</a> (<code>IsSentenceCard</code> diisi <code>1</code>), bentuk kartunya akan sedikit berbeda.</p>
+<p><code>PitchPosition</code> dan <code>PitchCategories</code> kosong kalau belum ada kamus aksen nada. <code>Picture</code>, <code>SentenceAudio</code>, dan <code>MiscInfo</code> baru terisi kalau kartu dibuat dari video, buku, atau manga. Kartu juga otomatis diberi tag <code>fushi</code>.</p>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Catatan draft</p>
+<p>Yang sudah diuji baru kartu dari halaman <code>Cari Kata</code>. Kartu dari buku, manga, dan video belum dicek.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p>Review bawaan Fushi dengan jadwal FSRS. Tidak perlu Anki atau add-on apa pun, cocok kalau kamu baru mulai.</p>
+<ol>
+<li>Buka <code>Pengaturan</code> &gt; <code>Pembuatan Kartu</code> &gt; tab <code>Fushi review</code></li>
+<li>Tekan <code>Turn on Fushi review</code></li>
+<li>Cari sebuah kata, lalu tekan tombol <strong>+</strong> biru. Kartu langsung masuk ke antrean review di Fushi</li>
+</ol>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-kartu-1.jpg" data-desc-position="bottom"><img alt="Pembuatan Kartu - Fushi review" height="300" src="../img/fushi-kartu-1.jpg" width="450"></a></p>
+</div>
+</div>
+</div>
+<hr>
+<h2 id="sumber-online-manga-anime-novel"><strong>Sumber Online (Manga, Anime &amp; Novel)</strong><a class="headerlink" href="#sumber-online-manga-anime-novel" title="Permanent link">¶</a></h2>
+<p>Fushi bisa membaca manga, menonton anime, dan membaca web novel dari situs online lewat ekstensi sumber. Ekstensinya sama dengan yang dipakai Mihon (manga), Aniyomi (anime), dan LNReader (novel). Fushi tidak menyertakan satu sumber pun, jadi kamu perlu menambahkan <strong>toko ekstensi</strong> (repositori) dulu, lalu memasang ekstensi dari toko itu.</p>
+<p>Ekstensi sumber ini berbeda dengan menu <code>Ekstensi</code> di samping kiri. Menu itu untuk <a href="#ekstensi-browser">ekstensi browser</a>.</p>
+<h3 id="tambah-toko-ekstensi"><strong>Tambah toko ekstensi</strong><a class="headerlink" href="#tambah-toko-ekstensi" title="Permanent link">¶</a></h3>
+<p>Salin tautan toko sesuai jenisnya:</p>
+<table>
+<thead>
+<tr>
+<th>Jenis</th>
+<th>Tab di Fushi</th>
+<th>Tautan toko ekstensi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Manga</td>
+<td><code>Manga</code></td>
+<td><code>https://github.com/keiyoushi/extensions/raw/repo/index.pb</code></td>
+</tr>
+<tr>
+<td>Anime</td>
+<td><code>Video</code></td>
+<td><code>https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json</code></td>
+</tr>
+<tr>
+<td>Novel</td>
+<td><code>Novel</code></td>
+<td><code>https://raw.githubusercontent.com/LNReader/lnreader-plugins/plugins/v3.0.0/.dist/plugins.min.json</code></td>
+</tr>
+</tbody>
+</table>
+<p>Sumber novel berbahasa Jepang di toko LNReader saat ini hanya dua, Syosetsu dan Kakuyomu. Keduanya situs web novel, jadi isinya bukan light novel terbitan resmi.</p>
+<ol>
+<li>Buka <code>Jelajah</code> di menu samping, lalu pilih tab <code>Sumber</code> di atas</li>
+<li>Pilih jenisnya: <code>Manga</code> untuk manga, <code>Video</code> untuk anime, <code>Novel</code> untuk novel</li>
+<li>Di kanan atas, pilih <code>Ekstensi</code></li>
+<li>
+<p>Tekan <code>Tambah toko ekstensi</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-repo-1.jpg" data-desc-position="bottom"><img alt="Belum ada toko ekstensi" height="300" src="../img/fushi-repo-1.jpg" width="450"></a></p>
+</li>
+<li>
+<p>Tempel tautan toko di kolom <code>URL toko ekstensi</code>, lalu tekan <code>Tambah toko ekstensi</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-repo-2.jpg" data-desc-position="bottom"><img alt="Tambah toko ekstensi" height="300" src="../img/fushi-repo-2.jpg" width="450"></a></p>
+</li>
+<li>
+<p>Toko yang berhasil ditambahkan muncul di daftar beserta jumlah ekstensinya. Ulangi langkah 2–5 untuk jenis yang lain</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio"><input id="__tabbed_4_2" name="__tabbed_4" type="radio"><div class="tabbed-labels"><label for="__tabbed_4_1">Manga (Keiyoushi)</label><label for="__tabbed_4_2">Anime (Yūzōnō)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-repo-3.jpg" data-desc-position="bottom"><img alt="Toko manga" height="300" src="../img/fushi-repo-3.jpg" width="450"></a></p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-repo-6.jpg" data-desc-position="bottom"><img alt="Toko anime" height="300" src="../img/fushi-repo-6.jpg" width="450"></a></p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+<p>Tautan toko anime di atas otomatis diganti Fushi ke versi <code>index.pb</code> setelah ditambahkan. Itu normal.</p>
+<h3 id="pasang-ekstensi-sumber"><strong>Pasang ekstensi sumber</strong><a class="headerlink" href="#pasang-ekstensi-sumber" title="Permanent link">¶</a></h3>
+<ol>
+<li>Masih di <code>Jelajah</code> &gt; <code>Sumber</code> &gt; <code>Ekstensi</code>, pilih <code>JA</code> di baris <code>Bahasa</code> supaya hanya sumber berbahasa Jepang yang tampil</li>
+<li>Buka toko ekstensinya (tekan panah di samping nama toko)</li>
+<li>
+<p>Tekan <code>Instal</code> di sumber yang kamu mau. Tombol <code>Pratinjau</code> bisa dipakai untuk melihat isinya dulu</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-repo-4.jpg" data-desc-position="bottom"><img alt="Daftar ekstensi manga Jepang" height="300" src="../img/fushi-repo-4.jpg" width="450"></a></p>
+</li>
+<li>
+<p>Saat pertama memasang ekstensi dari sebuah toko, muncul kotak <code>Percayai penanda tangan ekstensi?</code>. Tekan <code>Instal</code> kalau kamu percaya dengan toko tersebut. Ekstensi lain dari toko yang sama biasanya punya penanda tangan yang sama, jadi kotak ini tidak muncul lagi</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-repo-5.jpg" data-desc-position="bottom"><img alt="Percayai penanda tangan" height="300" src="../img/fushi-repo-5.jpg" width="450"></a></p>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Pasang ekstensi dari toko yang kamu percaya saja</p>
+<p>Ekstensi menjalankan kode dari pihak ketiga dengan izin Fushi. Isi dari setiap sumber berasal dari situs masing-masing, bukan dari Fushi.</p>
+</div>
+<h3 id="cari-judul"><strong>Cari judul</strong><a class="headerlink" href="#cari-judul" title="Permanent link">¶</a></h3>
+<ol>
+<li>Buka <code>Jelajah</code>, pilih tab <code>Jelajahi</code>, lalu pilih jenisnya (<code>Manga</code>, <code>Video</code>, atau <code>Novel</code>)</li>
+<li>Ketik judul di kolom <code>Cari setiap sumber yang aktif</code>, lalu tekan <code>Enter</code>. Fushi mencari di semua sumber yang sudah terpasang sekaligus. Kalau mau mencari di satu sumber saja, pilih sumbernya di menu <code>Semua sumber</code> di sebelah kiri kolom pencarian</li>
+<li>
+<p>Kalau belum tahu mau baca apa, gulir ke bawah. Ada daftar judul populer dari setiap sumber, dan bagian <code>Jelajahi sumber</code> untuk menjelajahi satu sumber tertentu</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-cari-judul-1.jpg" data-desc-position="bottom"><img alt="Jelajahi manga" height="300" src="../img/fushi-cari-judul-1.jpg" width="450"></a></p>
+</li>
+<li>
+<p>Pilih judulnya untuk membuka halaman detail. Dari sini kamu bisa langsung membaca (<code>Lanjutkan membaca</code>), memilih chapter atau episode di sebelah kanan, atau menyimpannya lewat <code>Tambah ke rak manga</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-cari-judul-2.jpg" data-desc-position="bottom"><img alt="Detail judul" height="300" src="../img/fushi-cari-judul-2.jpg" width="450"></a></p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Catatan draft</p>
+<p>Yang sudah diuji: kedua toko berhasil ditambahkan, satu ekstensi manga (Comic Days) terpasang, pencarian kata kunci memberi hasil, dan halaman detail judul bisa dibuka. Memasukkan tautan dan mengetik di kolom pencarian dilakukan lewat alat baris perintah Fushi, bukan diketik di aplikasi, jadi langkah tempel tautan (langkah 5) dan tekan <code>Enter</code> (Cari judul langkah 2) perlu dicoba sekali lagi langsung di aplikasi. Membaca chapter, menonton episode anime, dan mencari kata di dalamnya belum dicoba.</p>
+</div>
+<hr>
+<h2 id="gim"><strong>Gim</strong><a class="headerlink" href="#gim" title="Permanent link">¶</a></h2>
+<p>Fushi bisa membaca teks dialog dari game di Windows (text hook), terutama visual novel. Kata di dialog itu bisa dicari dan dijadikan kartu, lengkap dengan cuplikan layar game. Game dikelola di menu <code>Gim</code>.</p>
+<div class="admonition danger">
+<p class="admonition-title">Hati-hati dengan game online</p>
+<p>Fushi membaca teks dengan cara masuk ke proses game. Game online yang punya anti-cheat bisa menganggap ini kecurangan, dan akunmu bisa kena tindakan. Pakai fitur ini untuk visual novel atau game offline. Untuk game online, risikonya kamu tanggung sendiri.</p>
+</div>
+<h3 id="tambah-game"><strong>Tambah game</strong><a class="headerlink" href="#tambah-game" title="Permanent link">¶</a></h3>
+<ol>
+<li>Buka <code>Gim</code> di menu samping, lalu pilih tab <code>Impor</code></li>
+<li>
+<p>Tekan <code>Tambah game</code>, lalu pilih file <code>.exe</code> game-nya. Bisa juga dengan menyeret file <code>.exe</code> ke jendela Fushi</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-gim-2.jpg" data-desc-position="bottom"><img alt="Impor game" height="300" src="../img/fushi-gim-2.jpg" width="450"></a></p>
+</li>
+<li>
+<p>Game yang ditambahkan muncul di tab <code>Pustaka game</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-gim-3.jpg" data-desc-position="bottom"><img alt="Pustaka game" height="300" src="../img/fushi-gim-3.jpg" width="450"></a></p>
+</li>
+</ol>
+<h3 id="main-dan-ambil-teks-dialog"><strong>Main dan ambil teks dialog</strong><a class="headerlink" href="#main-dan-ambil-teks-dialog" title="Permanent link">¶</a></h3>
+<ol>
+<li>
+<p>Jalankan game <strong>lewat Fushi</strong>, jangan dari shortcut game-nya sendiri. Pilih game-nya di <code>Gim</code>, lalu tekan <code>Luncurkan</code>. Fushi akan membuka game sekaligus memasang text hook</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-gim-1.jpg" data-desc-position="bottom"><img alt="Luncurkan game" height="300" src="../img/fushi-gim-1.jpg" width="450"></a></p>
+</li>
+<li>
+<p>Mainkan sampai dialog pertama muncul, lalu kembali ke Fushi dan buka tab <code>Ruang kerja tangkapan</code>. Kalau hook berhasil, statusnya <code>Mendengarkan</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-gim-4.jpg" data-desc-position="bottom"><img alt="Ruang kerja tangkapan" height="300" src="../img/fushi-gim-4.jpg" width="450"></a></p>
+</li>
+<li>
+<p><strong>Pilih thread teks yang benar.</strong> Fushi biasanya menemukan beberapa sumber teks (thread). Buka menu di bawah <code>Baris langsung</code>, lalu pilih thread yang isinya dialog Jepang dan punya keterangan <code>… dengan audio</code>. Thread seperti ini yang paling bisa diandalkan, karena audio suara karakter ikut masuk ke kartu. Di NEKOPARA, thread itu bernama <code>EmbedKrkrZ</code></p>
+<ul>
+<li>Hindari <code>GDI fallback</code> (biasanya berisi teks menu game) dan thread yang hurufnya berulang (<code>危危なな…</code>)</li>
+<li>Thread yang teksnya bersih tapi tanpa audio (di NEKOPARA misalnya <code>TextRender</code>) tetap bisa dipakai, tapi kartunya tidak punya audio kalimat</li>
+<li>Kalau game menampilkan beberapa bahasa sekaligus (misalnya Jepang dan Inggris), baris bahasa lain ikut masuk ke thread. Ubah pengaturan bahasa teks di game jadi Jepang saja</li>
+<li>Kalau thread yang cocok belum muncul, majukan dialog beberapa baris lalu cek lagi. Kalau setelah game dibuka ulang teks dialog tidak masuk, buka menu ini lagi dan pilih ulang thread-nya</li>
+</ul>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio"><input id="__tabbed_5_2" name="__tabbed_5" type="radio"><div class="tabbed-labels"><label for="__tabbed_5_1">Daftar thread</label><label for="__tabbed_5_2">Thread sudah dipilih</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-gim-5.jpg" data-desc-position="bottom"><img alt="Pilih thread" height="300" src="../img/fushi-gim-5.jpg" width="450"></a></p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-gim-6.jpg" data-desc-position="bottom"><img alt="Thread terpilih" height="300" src="../img/fushi-gim-6.jpg" width="450"></a></p>
+</div>
+</div>
+</div>
+<p>Baris yang suaranya berhasil diambil diberi label <code>Audio siap</code> atau <code>Audio diekstrak</code>.</p>
+</li>
+<li>
+<p>Kembali ke game. Fushi menampilkan baris dialog sebagai <strong>subtitle mengambang</strong> di bawah jendela game. Klik kata di subtitle itu untuk memunculkan popup kamus, lalu tekan <strong>+</strong> untuk membuat kartu</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-gim-7.jpg" data-desc-position="bottom"><img alt="Popup kamus di game" height="300" src="../img/fushi-gim-7.jpg" width="450"></a></p>
+</li>
+<li>
+<p>Kalau kata itu sudah pernah dijadikan kartu, muncul kotak <code>Kartu sudah ada di Anki</code>. Pilih <code>Timpa kartu ini</code> untuk memperbarui kartu lama, atau <code>Tambah sebagai kartu baru</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-gim-8.jpg" data-desc-position="bottom"><img alt="Kartu sudah ada" height="300" src="../img/fushi-gim-8.jpg" width="450"></a></p>
+</li>
+</ol>
+<p>Kartu dari game berisi kata, arti, audio kata, kalimat dialog, gambar layar game di field <code>Picture</code>, dan judul game di <code>MiscInfo</code>. Kartunya juga diberi tag <code>Game</code> dan judul game. Audio kalimat masuk ke <code>SentenceAudio</code> kalau baris itu bersuara (bukan narasi).</p>
+<div class="admonition warning">
+<p class="admonition-title">Ganti gambar kartu jadi gambar animasi (AVIF)</p>
+<p>Bawaan Fushi menyimpan gambar kartu sebagai <strong>klip video</strong> (WebM). Klip ini bisa gagal diputar di Anki. Pada uji coba, klip dari NEKOPARA tertulis 20 detik padahal isinya cuma sekitar 4 detik, dan pemutarnya macet di 0:00.</p>
+<p>Format yang umum dipakai komunitas: gambar diam atau <strong>gambar animasi AVIF</strong> di <code>Picture</code>, dengan audio kalimat terpisah di <code>SentenceAudio</code>. Cara mengaturnya di Fushi:</p>
+<ol>
+<li>Buka <code>Pengaturan</code> &gt; <code>Pembuatan Kartu</code> &gt; tab <code>Anki</code>, lalu cari bagian <code>Media kartu</code></li>
+<li>Di <code>Gambar kartu galgame</code>, pilih mode animasi (<code>gif</code>) untuk gambar bergerak, atau <code>currentFrame</code> untuk satu gambar diam</li>
+<li>Pastikan <code>Format animasi kartu game</code> diisi <code>avif</code></li>
+<li>Lakukan hal yang sama untuk kartu dari anime/video: <code>Gambar kartu video</code> dan <code>Format animasi kartu video</code></li>
+</ol>
+<p>Pilihan <code>gif</code> di sini adalah nama mode gambar bergerak. Format filenya tetap mengikuti <code>Format animasi</code>, jadi kalau diisi <code>avif</code>, hasilnya file AVIF.</p>
+</div>
+<details class="info">
+<summary>Perlu izin administrator? <small>(klik di sini)</small></summary>
+<p>Untuk kebanyakan visual novel, Fushi tidak perlu dibuka sebagai administrator. Kalau game-nya sendiri berjalan sebagai administrator (misalnya game yang launcher-nya meminta izin admin), buka Fushi sebagai administrator juga: tutup Fushi, lalu klik kanan shortcut Fushi &gt; <code>Run as administrator</code>. Setelah selesai main, tutup Fushi lalu buka lagi seperti biasa.</p>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Catatan draft</p>
+<p>Diuji dengan NEKOPARA Vol. 1 tanpa izin administrator: hook berhasil, thread teks bisa dipilih, popup kamus muncul dari subtitle mengambang, dan kartu masuk ke Anki. Mencari kata langsung di teks dalam jendela game (bukan di subtitle mengambang) belum dicoba.</p>
+<p>Setelah <code>Gambar kartu galgame</code> diganti ke mode animasi, kartu berisi file AVIF animasi yang valid (480×270, sekitar 1 detik) dalam tag gambar biasa. Yang belum dicek: tampilan gambarnya di Anki desktop dan AnkiDroid, screenshot bagian <code>Media kartu</code>, dan nama opsi persis di aplikasi. Nama pengaturan di atas diambil dari daftar pengaturan Fushi.</p>
+<p>Audio kalimat sudah diuji: kartu dari baris bersuara Chocola (「危ない危ない……気をつけにゃいと……」, thread <code>EmbedKrkrZ</code>) berisi audio kalimat AAC sekitar 3,5 detik di <code>SentenceAudio</code> dan gambar AVIF di <code>Picture</code>. Baris narasi dan dialog Kashou (tokoh utama) memang tidak bersuara.</p>
+<p>Cara mengubah bahasa teks di NEKOPARA jadi Jepang saja belum dicoba.</p>
+</div>
+<hr>
+<h2 id="ekstensi-browser"><strong>Ekstensi browser</strong><a class="headerlink" href="#ekstensi-browser" title="Permanent link">¶</a></h2>
+<p>Dengan ekstensi Fushi, kamu bisa mencari kata di halaman web mana pun dan memakai subtitle Fushi di situs video. Ekstensi ini belum ada di Chrome Web Store, jadi dipasang manual. Langkah di bawah untuk browser berbasis Chromium (Chrome, Edge, Brave, Vivaldi, Opera).</p>
+<ol>
+<li>Di Fushi, buka <code>Ekstensi</code> di menu samping. Panduan pemasangannya ada di sana, dan nama browser bawaanmu sudah dikenali otomatis</li>
+<li>Buka halaman ekstensi browser (misalnya <code>chrome://extensions</code> atau <code>brave://extensions</code>). Tombol <code>Try to open</code> bisa membukanya langsung</li>
+<li>Nyalakan <code>Mode pengembang</code> (tombol di pojok kanan atas)</li>
+<li>Klik <code>Muat yang belum dikemas</code> (<code>Load unpacked</code>)</li>
+<li>Pilih folder ekstensinya. Jalurnya sudah otomatis disalin, jadi cukup tempel (<code>Ctrl</code> + <code>V</code>) di kolom alamat jendela pilih folder. Foldernya ada di <code>%APPDATA%\Fushi\Fushi\fushi-browser-extension</code></li>
+<li>Kembali ke Fushi dan tekan <code>Periksa koneksi</code>. Kalau berhasil, tulisannya berubah jadi <code>Ekstensi terhubung</code></li>
+</ol>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:3"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio"><input id="__tabbed_6_2" name="__tabbed_6" type="radio"><input id="__tabbed_6_3" name="__tabbed_6" type="radio"><div class="tabbed-labels"><label for="__tabbed_6_1">Panduan pemasangan</label><label for="__tabbed_6_2">Langkah terakhir</label><label for="__tabbed_6_3">Terhubung</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-ekstensi-1.jpg" data-desc-position="bottom"><img alt="Panduan ekstensi 1" height="300" src="../img/fushi-ekstensi-1.jpg" width="450"></a></p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-ekstensi-2.jpg" data-desc-position="bottom"><img alt="Panduan ekstensi 2" height="300" src="../img/fushi-ekstensi-2.jpg" width="450"></a></p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-ekstensi-4.jpg" data-desc-position="bottom"><img alt="Ekstensi terhubung" height="300" src="../img/fushi-ekstensi-4.jpg" width="450"></a></p>
+</div>
+</div>
+</div>
+<p>Setelah terpasang, tahan <code>Shift</code> sambil mengarahkan kursor ke teks Jepang di browser untuk mencarinya. Pengaturan ekstensi (cara mencari, subtitle, tampilan) ada di halaman pengaturan ekstensi di browser.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-ekstensi-3.jpg" data-desc-position="bottom"><img alt="Pengaturan ekstensi" height="300" src="../img/fushi-ekstensi-3.jpg" width="450"></a></p>
+<div class="admonition warning">
+<p class="admonition-title">Jangan hapus atau pindahkan folder data Fushi</p>
+<p>Ekstensi dimuat dari dalam folder data Fushi. Kalau folder itu dihapus atau dipindah, ekstensinya ikut berhenti bekerja dan harus dipasang ulang lewat <code>Reinstall or update the extension</code> di halaman <code>Ekstensi</code>.</p>
+</div>
+<hr>
+<h2 id="faqs"><strong>FAQs</strong><a class="headerlink" href="#faqs" title="Permanent link">¶</a></h2>
+<h4 id="pertanyaan-1-apa-bedanya-fushi-dengan-manatan">Pertanyaan 1: Apa bedanya Fushi dengan Manatan?<a class="headerlink" href="#pertanyaan-1-apa-bedanya-fushi-dengan-manatan" title="Permanent link">¶</a></h4>
+<details class="question">
+<summary>Apa bedanya Fushi dengan Manatan? <small>(klik di sini)</small></summary>
+<ul>
+<li>Keduanya menggabungkan pembaca buku, manga, dan pemutar video dengan kamus popup dalam satu aplikasi</li>
+<li>Fushi juga punya pencarian di luar aplikasi (<code>Ctrl</code> + <code>Alt</code> + <code>D</code>), ekstensi browser, dan dukungan galgame (khusus Windows)</li>
+<li>Fushi bisa membuat dek dan tipe catatan Lapis di Anki langsung dari aplikasinya</li>
+</ul>
+</details>
+<h4 id="pertanyaan-2-apakah-paket-rekomendasi-wajib-diunduh">Pertanyaan 2: Apakah Paket rekomendasi wajib diunduh?<a class="headerlink" href="#pertanyaan-2-apakah-paket-rekomendasi-wajib-diunduh" title="Permanent link">¶</a></h4>
+<details class="question">
+<summary>Apakah Paket rekomendasi wajib diunduh? <small>(klik di sini)</small></summary>
+<ul>
+<li>Tidak. Paket ini besarnya sekitar 9,5 GB karena berisi audio pengucapan</li>
+<li>Untuk mulai, cukup pasang JIDict, JMdict, JMnedict, dan JPDB Frequency (lihat <a href="#kamus">Kamus</a>)</li>
+<li>Kalau paketnya sudah terunduh, Fushi akan menawarkan <code>Impor sekarang</code> di bagian bawah <code>Beranda</code>. Aplikasi akan memulai ulang setelah impor selesai</li>
+</ul>
+</details>
+<h4 id="pertanyaan-3-apakah-fushi-butuh-browser">Pertanyaan 3: Apakah Fushi butuh browser?<a class="headerlink" href="#pertanyaan-3-apakah-fushi-butuh-browser" title="Permanent link">¶</a></h4>
+<details class="question">
+<summary>Apakah Fushi butuh browser? <small>(klik di sini)</small></summary>
+<ul>
+<li>Tidak. Browser hanya diperlukan kalau kamu mau memakai ekstensi untuk mencari kata di halaman web atau menonton di situs video</li>
+</ul>
+</details>
+<h2 id="masalah-umum"><strong>Masalah Umum</strong><a class="headerlink" href="#masalah-umum" title="Permanent link">¶</a></h2>
+<h4 id="masalah-1-muncul-old-data-needs-an-upgrade-first">Masalah 1: Muncul "Old data needs an upgrade first"<a class="headerlink" href="#masalah-1-muncul-old-data-needs-an-upgrade-first" title="Permanent link">¶</a></h4>
+<details class="warning">
+<summary>Muncul layar Old data needs an upgrade first <small>(klik di sini)</small></summary>
+<p>Layar ini muncul kalau di komputermu masih ada data dari Hibiki atau Fushi versi awal yang terlalu lama untuk dibaca Fushi 3.0.0. Datanya belum diubah sama sekali.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-data-lama.jpg" data-desc-position="bottom"><img alt="Old data needs an upgrade first" height="300" src="../img/fushi-data-lama.jpg" width="450"></a></p>
+<p>Pilih salah satu:</p>
+<ul>
+<li><strong>Mulai dari nol</strong>: tutup Fushi, buka folder <code>%APPDATA%\Fushi</code>, ganti nama folder <code>Fushi</code> di dalamnya (misalnya jadi <code>Fushi.lama</code>), lalu buka Fushi lagi. Kamus harus diimpor ulang</li>
+<li><strong>Pertahankan data lama</strong>: tutup Fushi, pasang <a href="https://github.com/hajisensai/fushi/releases/tag/v2.9.1">Fushi 2.9.1</a> di atas versi sekarang, buka sekali sampai datanya selesai diperbarui, tutup, lalu pasang lagi versi terbaru</li>
+</ul>
+</details>
+<h4 id="masalah-2-hasil-pencarian-kosong">Masalah 2: Hasil pencarian kosong<a class="headerlink" href="#masalah-2-hasil-pencarian-kosong" title="Permanent link">¶</a></h4>
+<details class="warning">
+<summary>Hasil pencarian kosong <small>(klik di sini)</small></summary>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/fushi-cari-kosong.jpg" data-desc-position="bottom"><img alt="Hasil pencarian kosong" height="300" src="../img/fushi-cari-kosong.jpg" width="450"></a></p>
+<ul>
+<li>Kamus belum terpasang. Ikuti bagian <a href="#kamus">Kamus</a></li>
+<li>Kalau kamus sudah terpasang, cek di <code>Pengaturan</code> &gt; <code>Pencarian</code> &gt; <code>Kamus</code> bahwa tombolnya menyala</li>
+</ul>
+</details>
+<h4 id="masalah-3-ekstensi-belum-terdeteksi">Masalah 3: Ekstensi belum terdeteksi<a class="headerlink" href="#masalah-3-ekstensi-belum-terdeteksi" title="Permanent link">¶</a></h4>
+<details class="warning">
+<summary>Ekstensi belum terdeteksi <small>(klik di sini)</small></summary>
+<ul>
+<li>Pastikan Fushi sedang terbuka. Ekstensi butuh Fushi berjalan supaya bisa mencari kata</li>
+<li>Tekan <code>Periksa koneksi</code> di halaman <code>Ekstensi</code>. Status di Fushi kadang baru berubah setelah tombol ini ditekan</li>
+<li>Cek di halaman ekstensi browser bahwa ekstensi Fushi menyala dan tidak ada pesan error</li>
+<li>Kalau masih gagal, buka <code>Reinstall or update the extension</code> di halaman <code>Ekstensi</code> dan ulangi langkah pemasangan</li>
+</ul>
+</details>
+<h4 id="masalah-4-kartu-tidak-masuk-ke-anki">Masalah 4: Kartu tidak masuk ke Anki<a class="headerlink" href="#masalah-4-kartu-tidak-masuk-ke-anki" title="Permanent link">¶</a></h4>
+<details class="warning">
+<summary>Kartu tidak masuk ke Anki <small>(klik di sini)</small></summary>
+<ul>
+<li>Pastikan Anki desktop sedang terbuka dan add-on AnkiConnect sudah terpasang</li>
+<li>Buka <code>Pengaturan</code> &gt; <code>Pembuatan Kartu</code> &gt; tab <code>Anki</code>, lalu tekan <code>Segarkan dek &amp; tipe catatan</code></li>
+<li>Pastikan <code>Dek</code> dan <code>Tipe Catatan</code> sudah terpilih</li>
+<li>Kartu yang gagal dikirim saat Anki tertutup akan disimpan di antrean dan bisa dikirim ulang setelah Anki dibuka</li>
+<li>Kartu masuk tapi audionya kosong: pasang sumber audio dulu (lihat <a href="#audio-pengucapan">Audio pengucapan</a>), lalu tekan tombol <strong>✓↩</strong> untuk menimpa kartu tadi</li>
+</ul>
+</details>
+<h4 id="masalah-5-masih-bingung">Masalah 5: Masih bingung?<a class="headerlink" href="#masalah-5-masih-bingung" title="Permanent link">¶</a></h4>
+<details class="warning">
+<summary>Masih bingung? <small>(klik di sini)</small></summary>
+<p>Tanyakan di <a href="https://discord.gg/hp55WMbbG6">Discord Philia Space</a>. Sertakan versi Fushi dan screenshot layar yang bermasalah.</p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Kembali ke atas
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../pembaruan-note-type/" class="md-footer__link md-footer__link--prev" aria-label="Sebelumnya: Memperbarui Note Type">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Sebelumnya
+              </span>
+              <div class="md-ellipsis">
+                Memperbarui Note Type
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Setup-Hoshi-Reader-iOS/" class="md-footer__link md-footer__link--next" aria-label="Selanjutnya: LN &amp; Buku">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Selanjutnya
+              </span>
+              <div class="md-ellipsis">
+                LN &amp; Buku
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.action.edit", "content.zoom", "navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.expand", "navigation.top", "navigation.tracking", "navigation.footer", "toc.follow", "search.suggest", "search.highlighting", "search.share"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+        <script src="../javascripts/extra.js"></script>
+      
+        <script src="../javascripts/lang.js"></script>
+      
+        <script src="../js/open_in_new_tab.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
