@@ -54,14 +54,14 @@
 
     <!-- Discord icon that links to discord-->
     <label class="md-header__button md-icon">
-      <a href="/join">
+      <a href="{{ 'join/' | url }}">
         {% include ".icons/fontawesome/brands/discord.svg" %}
       </a>
     </label>
 
     <!-- Donate icon (heart) -->
     <label class="md-header__button md-icon" title="Donate">
-      <a href="/donate" aria-label="Donate">
+      <a href="{{ 'donate/' | url }}" aria-label="Donate">
         {% include ".icons/fontawesome/solid/heart.svg" %}
       </a>
     </label>

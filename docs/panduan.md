@@ -106,7 +106,7 @@ Rutinitas pemula dibuat ringkas supaya kamu cepat sampai ke konten asli:
 ## 2.2 Hiragana dan Katakana
 
 <figure>
-  <img src="/img/kana3.png" style="display: block; margin: 0 auto;" alt="HIRAGANA AND KATAKANA IN SCRIPTS">
+  <img src="../img/kana3.png" style="display: block; margin: 0 auto;" alt="HIRAGANA AND KATAKANA IN SCRIPTS">
   <figcaption>"Hiragana" dan "Katakana" ditulis dalam bentuk tulisannya masing-masing.</figcaption>
 </figure> 
 
@@ -116,7 +116,7 @@ Tulisan Jepang punya tiga komponen: *hiragana*, *katakana*, dan *kanji*.
 
 ### Hiragana
 <figure>
-  <img src="/img/hiragana.png" alt="HIRAGANA">
+  <img src="../img/hiragana.png" alt="HIRAGANA">
   <figcaption>Karakter hiragana dasar.</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ Hiragana bentuknya melengkung dan jadi fondasi utama tulisan Jepang, terutama un
 
 ### Katakana
 <figure>
-  <img src="/img/katakana.png" alt="KATAKANA">
+  <img src="../img/katakana.png" alt="KATAKANA">
   <figcaption>Karakter katakana dasar.</figcaption>
 </figure>
 
@@ -146,11 +146,11 @@ Katakana bentuknya bersudut tegas. Bunyinya sama persis dengan hiragana, tapi di
 
 #### Langkah 1 - Amati tabel acuan
 <figure>
-  <img src="/img/hiragana_katakana_LARGE.png" alt="HIRAGANA AND KATAKANA">
+  <img src="../img/hiragana_katakana_LARGE.png" alt="HIRAGANA AND KATAKANA">
   <figcaption>
       Tabel lengkap huruf kana tunggal<br>
-      <a href="/img/hiragana_katakana_LARGE.png" target="_blank">Buka di peramban</a> | 
-      <a href="/img/hiragana_katakana_LARGE.png" download>Unduh gambar</a>
+      <a href="../img/hiragana_katakana_LARGE.png" target="_blank">Buka di peramban</a> | 
+      <a href="../img/hiragana_katakana_LARGE.png" download>Unduh gambar</a>
   </figcaption>
 </figure>
 
@@ -206,7 +206,7 @@ Pakai bacaan berjenjang gratis di **[Tadoku Graded Readers Level Start](https://
 ## 2.3 Kosakata & Kanji
 
 <figure>
-  <img src="/img/kanji2.jpg" alt="80 Kanji Pertama">
+  <img src="../img/kanji2.jpg" alt="80 Kanji Pertama">
   <figcaption>80 kanji dasar tingkat awal di sekolah dasar Jepang.</figcaption>
 </figure>
 
@@ -248,7 +248,7 @@ Untuk membangun kosakata awal dengan cepat, pakai dek kosakata frekuensi tinggi 
 3. Buka Anki, pilih menu **Import File**, lalu pilih berkas `.apkg` yang tadi diunduh.
 
 <figure>
-  <img src="/img/ankidownload.jpg" alt="Halaman Unduh Anki">
+  <img src="../img/ankidownload.jpg" alt="Halaman Unduh Anki">
   <figcaption>Halaman unduh Anki. Pilih yang sesuai sistem operasimu; semuanya gratis kecuali AnkiMobile (iOS).</figcaption>
 </figure>
 
@@ -275,7 +275,7 @@ Sebelum mulai, atur dek lewat ikon gir di samping nama dek:
 Tujuan flashcard adalah menguji ingatan aktif terhadap **cara baca dan arti dasar** kata yang ditampilkan:
 
 <figure>
-  <img src="/img/ankikaishi.png" alt="Tampilan Kartu Kaishi di Anki">
+  <img src="../img/ankikaishi.png" alt="Tampilan Kartu Kaishi di Anki">
   <figcaption>Komponen informasi penting: kata target, cara baca kana, dan definisi ringkas.</figcaption>
 </figure>
 

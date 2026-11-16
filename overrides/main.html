@@ -3,23 +3,7 @@
 
 
 {% block analytics %}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6M8XGSMGX2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6M8XGSMGX2');
-</script>
-
-
-
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7374918663808833"
-     crossorigin="anonymous"></script>
-
+{# Situs pribadi di fork: tanpa Google Analytics dan iklan Philia Space. #}
 {% endblock %}
 
 {% block lang_switcher %}
@@ -64,8 +48,8 @@
         <div class="md-sidebar__inner">
             {% include "partials/toc.html" %}
             <div class="ps-toc-footer">
-                <a href="/join" class="ps-community-link" aria-label="Join Discord">
-                    <img width="100%" src="/img/discord.png" alt="Discord Philia Space" style="border-radius: 8px; margin-top: 1.5rem; display: block; border: 1px solid var(--md-default-fg-color--lightest);">
+                <a href="{{ 'join/' | url }}" class="ps-community-link" aria-label="Join Discord">
+                    <img width="100%" src="{{ 'img/discord.png' | url }}" alt="Discord Philia Space" style="border-radius: 8px; margin-top: 1.5rem; display: block; border: 1px solid var(--md-default-fg-color--lightest);">
                 </a>
             </div>
         </div>

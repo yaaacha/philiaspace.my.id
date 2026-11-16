@@ -1,14 +1,3 @@
-document$.subscribe(function (url) {
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-
-  gtag("config", "G-6M8XGSMGX2");
-});
-
-
 // Tables wider than the page scroll sideways. Mark which edges still hide content
 // (for the edge fade and sticky column shadow) and make the scroll box reachable by keyboard.
 (function () {

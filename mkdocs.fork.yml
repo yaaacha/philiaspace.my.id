@@ -1,0 +1,5 @@
+# Build situs pribadi di fork (https://yaaacha.github.io/philiaspace.my.id/).
+# Deploy: mkdocs gh-deploy -f mkdocs.fork.yml --remote-name origin
+# Jangan pakai --remote-name upstream: itu menimpa situs live philiaspace.my.id.
+INHERIT: mkdocs.yml
+site_url: https://yaaacha.github.io/philiaspace.my.id/
